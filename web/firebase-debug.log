@@ -1,0 +1,28 @@
+[debug] [2017-11-29T22:11:28.955Z] ----------------------------------------------------------------------
+[debug] [2017-11-29T22:11:28.958Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.2/bin/node /home/ubuntu/.nvm/versions/node/v6.11.2/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2017-11-29T22:11:28.959Z] CLI Version:   3.14.0
+[debug] [2017-11-29T22:11:28.959Z] Platform:      linux
+[debug] [2017-11-29T22:11:28.959Z] Node Version:  v6.11.2
+[debug] [2017-11-29T22:11:28.959Z] Time:          Wed Nov 29 2017 22:11:28 GMT+0000 (UTC)
+[debug] [2017-11-29T22:11:28.959Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-29T22:11:28.976Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-29T22:11:28.976Z] > authorizing via signed-in user
+[debug] [2017-11-29T22:11:28.979Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-c0ad6  
+ Wed Nov 29 2017 22:11:28 GMT+0000 (UTC)
+[debug] [2017-11-29T22:11:29.186Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-29T22:11:29.188Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-c0ad6/tokens  
+ Wed Nov 29 2017 22:11:29 GMT+0000 (UTC)
+[debug] [2017-11-29T22:11:29.478Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/web'...
+[info] 
+[debug] [2017-11-29T22:11:29.481Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-c0ad6  
+ Wed Nov 29 2017 22:11:29 GMT+0000 (UTC)
+[debug] [2017-11-29T22:11:29.787Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-29T22:11:29.788Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/724241579879/clients/_:getWebAppConfig  
+ Wed Nov 29 2017 22:11:29 GMT+0000 (UTC)
+[debug] [2017-11-29T22:11:29.906Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+

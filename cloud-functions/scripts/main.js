@@ -71,7 +71,7 @@ FriendlyChat.prototype.loadMessages = function() {
   this.messagesRef.off();
 
   // Loads the last 12 messages and listen for new ones.
-  var setMessage = function(data) {
+  var setMessage = funpwdction(data) {
     var val = data.val();
     this.displayMessage(data.key, val.name, val.text, val.photoUrl, val.imageUrl);
   }.bind(this);
